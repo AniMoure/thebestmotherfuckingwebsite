@@ -1,0 +1,76 @@
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('fonts/OpenSans-Regular-webfont.eot');
+    src: url('fonts/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/OpenSans-Regular-webfont.woff2') format('woff2'),
+         url('fonts/OpenSans-Regular-webfont.woff') format('woff'),
+         url('fonts/OpenSans-Regular-webfont.ttf') format('truetype'),
+         url('fonts/OpenSans-Regular-webfont.svg#open_sansregular') format('svg');
+}
+body {
+	font-family: open_sansregular, Arial;
+	margin: 2em auto;
+	max-width: 800px;
+	font-size: 16px;
+	line-height: 1.4;
+	text-align: justify;
+    color: #050505;
+    padding: 1em;
+}
+.green {
+	color: #34a837;
+}
+.red {
+	color: #e62020;
+	border-bottom: 2px solid;
+	font-weight: bold;
+}
+.little {
+	font-size: 7px;
+}
+.blue {
+	color: #0000ee;
+}
+.violet {
+	color: #551a8b;
+}
+.color {
+	color: #0077aa;
+}
+a:visited {
+	color: maroon;
+}
+ul li img {
+	height: 1em;
+}
+.block1 {
+	display: inline-block;
+	height: 1em;
+	width: 1em;
+	background-color: #444444;
+}
+.block2 {
+	display: inline-block;
+	height: 1em;
+	width: 1em;
+	background-color: #454545;
+}
+
+div
+{
+    width: 800px;
+    display: table;
+}
+div span img 
+{
+    vertical-align: middle;
+    display: table-cell;
+    margin-right: 1em;
+    float: left;
+}
+span.picture 
+{
+    vertical-align: middle;
+    display: table-cell;
+    font-size: 0.59em;
+}
